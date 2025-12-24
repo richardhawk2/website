@@ -1,10 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<style>
+			.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+		</style>
 		<title>Why are you here?</title>
 		<meta charset="utf-8">
 	</head>
 	<body>
+		<div class="blink_me">HELLO EVAN</div>
 		<h1>This is my website!</h1>
 		<a href="about.html">About this project</a>
 		<br>
